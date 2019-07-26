@@ -23,9 +23,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @ActiveProfiles(profiles = "test")
 class ShowControllerTest {
     @Autowired
-    private ShowController showController;
-
-    @Autowired
     private MockMvc mvc;
 
     @MockBean
